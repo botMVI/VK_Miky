@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var loginField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
+    @IBAction func buttonEnter(_ sender: Any) {
+        print("Tap")
+    }
+    
 }
 
